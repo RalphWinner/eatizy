@@ -1,4 +1,5 @@
-body { padding: 2em; }
+body { padding: 2em; 
+    background: url('/assets/img/background.jpg') 6px 6px no-repeat;}
 
 
 /* Shared */
