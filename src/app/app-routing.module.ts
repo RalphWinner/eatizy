@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './auth/login/login.component';
 import { MasterComponent } from './master/master.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { RegisterComponent } from './auth/register/register.component';
 
 const routes: Routes = [
   {
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'home',      component: MasterComponent },
   { path: 'about',      component: AboutComponent },
   { path: 'login',      component: LoginComponent },
+  { path: 'register',      component: RegisterComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 
